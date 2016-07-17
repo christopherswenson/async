@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Async Demo</title>
+  <meta name="description" content="A Demo for my Async Package">
+  <meta name="author" content="Christopher Swenson">
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="codemirror/css/codemirror.css">
+  <link rel="stylesheet" href="css/colorful.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <h1><span style="color: #f1a40e">Async</span>.<span style="color: #e47845">Demo</span></h1>
+      <div class="row">
+        <div class="col-sm-2 sidebar">
+          <div class="well top sidebar-item noselect" id="basic" >
+            <a href="#basic"><div>Basic</div></a>
+          </div>
+          <div class="well middle sidebar-item noselect" id="sequence" >
+            <a href="#sequence"><div>Sequence</div></a>
+          </div>
+          <div class="well middle sidebar-item noselect" id="parallel" >
+            <a href="#parallel"><div>Parallel</div></a>
+          </div>
+          <div class="well bottom sidebar-item noselect" id="errors" >
+            <a href="#errors"><div>Error Propagation</div></a>
+          </div>
+          <div class="well sidebar-item noselect" id="custom" >
+            <a href="#custom"><div>Custom</div></a>
+          </div>
+        </div>
+        <div class="col-sm-6 left">
+          <div id="demo-area"></div>
+        </div>
+        <div class="col-sm-4 right">
+          <div class="btn-corner-stop">
+            <span class="btn-corner noselect" onclick="clean()">Clear</span>
+          </div>
+          <div class="well top" id="store"></div>
+          <div class="well bottom" id="console"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/monkeypatch.js"></script>
+  <script src="codemirror/js/codemirror.js"></script>
+  <script src="codemirror/js/javascript.js"></script>
+  <script src="jquery/js/jquery.js"></script>
+  <script src="js/async.js"></script>
+  <script src="js/demos.js"></script>
+  <script src="js/demo.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

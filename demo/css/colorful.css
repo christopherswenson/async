@@ -1,0 +1,38 @@
+/*
+
+    Name:       Base16 Default Light
+    Author:     Chris Kempson (http://chriskempson.com)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-colorful.CodeMirror { background: #f5f5f5; color: #34495e; }
+.cm-s-colorful div.CodeMirror-selected { background: rgba(31, 199, 0, 0.11); }
+.cm-s-colorful .CodeMirror-line::selection, .cm-s-colorful .CodeMirror-line > span::selection, .cm-s-colorful .CodeMirror-line > span > span::selection { background: rgba(31, 199, 0, 0.11); }
+.cm-s-colorful .CodeMirror-line::-moz-selection, .cm-s-colorful .CodeMirror-line > span::-moz-selection, .cm-s-colorful .CodeMirror-line > span > span::-moz-selection { background: rgba(31, 199, 0, 0.11); }
+.cm-s-colorful .CodeMirror-gutters { background: #f5f5f5; border-right: 0px; }
+.cm-s-colorful .CodeMirror-guttermarker { color: #ac4142; }
+.cm-s-colorful .CodeMirror-guttermarker-subtle { color: #b0b0b0; }
+.cm-s-colorful .CodeMirror-linenumber { color: #b0b0b0; }
+.cm-s-colorful .CodeMirror-cursor { border-left: 1px solid #505050; }
+
+.cm-s-colorful span.cm-comment { color: #6174af; }
+.cm-s-colorful span.cm-atom { color: #e73c88; }
+.cm-s-colorful span.cm-number { color: #e73c88; }
+
+.cm-s-colorful span.cm-property, .cm-s-colorful span.cm-attribute { color: #e47845; }
+.cm-s-colorful span.cm-keyword { color: #9c56b8; }
+.cm-s-colorful span.cm-string { color: #2a80b9; }
+
+.cm-s-colorful span.cm-variable { color: #f1a40e; }
+.cm-s-colorful span.cm-variable-2 { color: #2a80b9; }
+.cm-s-colorful span.cm-def { color: #27ae61; }
+.cm-s-colorful span.cm-bracket { color: #202020; }
+.cm-s-colorful span.cm-tag { color: #ac4142; }
+.cm-s-colorful span.cm-link { color: #e73c88; }
+.cm-s-colorful span.cm-error { background: #ac4142; color: #505050; }
+
+.cm-s-colorful .CodeMirror-activeline-background { background: #DDDCDC; }
+.cm-s-colorful .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }
