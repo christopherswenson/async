@@ -98,7 +98,7 @@ function placeEditorArea(outer) {
   textarea.value = "";
 
   var editor = makeEditor(textarea);
-  cornerButton.onclick = () => run(editor.getValue());
+  cornerButton.onclick = function () { run(editor.getValue()) };
   return editor;
 }
 
